@@ -64,7 +64,7 @@ const HomePage = () => {
                 <div
                     className="flex basis-3/5 justify-end md:z-10 md:ml-40 md:mt-16 md:justify-items-end"
                 >
-                    <Image alt="home-pageGraphic" src={'/assets/HomePageGraphic.png'} width={575} height={628} />
+                    <Image alt="home-pageGraphic" src={'/assets/HomePageGambar.png'} width={575} height={628} />
                 </div>
             </motion.div>
         </section>
