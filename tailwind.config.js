@@ -8,19 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "gray-20": "#F8F4EB",
-        "gray-50": "#EFE6E6",
-        "gray-100": "#DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
+        "gray-20": "#DDF5F7",
+        "gray-50": "#C0D9E5",
+        "gray-100": "#44679F",
+        "gray-500": "#3B577D",
+        "primary-100": "#AAD8D3",
+        "primary-300": "#00ADB5",
+        "primary-500": "#393E46",
         "secondary-400": "#FFCD5B",
         "secondary-500": "#FFC132",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
+          "linear-gradient(90deg, #AAD8D3 0%, #00ADB5 100%)",
         "mobile-home": "url('/assets/HomePageGraphic.png')",
       }),
       fontFamily: {

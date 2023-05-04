@@ -29,15 +29,13 @@ const HomePage = () => {
                         }}
                     >
                         <div className="relative">
-                            <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                                <Image alt="home-page-text" src={'/assets/HomePageText.png'} width={489} height={163} />
+                            <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1]  pt-5" >
+                                <Image alt="home-page-text" src={'/assets/HomePage.png'} width={489} height={163} />
                             </div>
                         </div>
 
                         <p className="mt-8 text-sm">
-                            Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-                            Studios to get the Body Shapes That you Dream of.. Get Your Dream
-                            Body Now.
+                            Kolam Renang Terbaik di Kota Negara dengan Fasilitas yang lengkap, Pelatihan Renang, dan Arena Rekreasi Keluarga.   
                         </p>
                     </motion.div>
 
@@ -54,7 +52,7 @@ const HomePage = () => {
                         }}
                     >
                         <AnchorLink
-                            className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white"
+                            className="rounded-md bg-orange-300 px-10 py-2 hover:bg-blue-500 hover:text-white"
                             href={`contactus`}
                         >
                             Join Now
@@ -64,9 +62,9 @@ const HomePage = () => {
 
                 {/* IMAGE */}
                 <div
-                    className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end"
+                    className="flex basis-3/5 justify-end md:z-10 md:ml-40 md:mt-16 md:justify-items-end"
                 >
-                    <img alt="home-pageGraphic" src={'/assets/HomePageGraphic.png'} width={575} height={628} />
+                    <Image alt="home-pageGraphic" src={'/assets/HomePageGraphic.png'} width={575} height={628} />
                 </div>
             </motion.div>
         </section>

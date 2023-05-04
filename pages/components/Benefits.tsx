@@ -37,7 +37,7 @@ const Benefit = ({ icon, title, description }: Props) => {
                 className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
                 href={`contactus`}
             >
-                <p>Learn More</p>
+                <p>Pelajari lebih Lanjut</p>
             </AnchorLink>
         </motion.div>
     );
@@ -47,20 +47,20 @@ const Benefit = ({ icon, title, description }: Props) => {
 const benefits: Array<any> = [
     {
         icon: <HomeModernIcon className="h-6 w-6" />,
-        title: "State of the Art Facilities",
+        title: "Fasilitas yang lengkap",
         description:
-            "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+            "Anda tidak perlu khawatir jika tidak membawa pakaian renang, makanan, minuman semua tersedia disini",
     },
     {
         icon: <UserGroupIcon className="h-6 w-6" />,
-        title: "100's of Diverse Classes",
+        title: "Kelas Renang",
         description:
-            "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+            "Kami juga menyediakan kelas renang dari senin - sabtu dengan jadwal yang bisa anda sesuaikan",
     },
     {
         icon: <AcademicCapIcon className="h-6 w-6" />,
-        title: "Expert and Pro Trainers",
-        description: "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+        title: "Dilatih oleh Penyelam Profesional",
+        description: "Banyak atlet profesional menyelesaikan pelatihannya di kolam renang kami",
     },
 ];
 
@@ -89,11 +89,10 @@ const Benefits = () => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <h1 className="basis-3/5 font-montserrat text-3xl font-bold">MORE THAN JUST GYM.</h1>
+                    <h1 className="basis-3/5 font-montserrat text-3xl font-bold">LEBIH DARI SEKEDAR KOLAM RENANG.</h1>
                     <p className="my-5 text-sm">
-                        We provide world class fitness equipment, trainers and classes to
-                        get you to your ultimate fitness goals with ease. We provide true
-                        care into each and every member.
+                        Kami menyediakan peralatan renang kelas dunia, pelatihan dan kelas untuk
+                        anda yang meningkatkan kemampuan renang anda. Kami menyediakan menyediakan pelayanan terbaik untuk para anggota.
                     </p>
                 </motion.div>
 
@@ -121,7 +120,7 @@ const Benefits = () => {
                     <Image
                         className="mx-auto"
                         alt="benefits-page-graphic"
-                        src={'/assets/BenefitsPageGraphic.png'}
+                        src={'/assets/BenefitsPage.png'}
                         width={490}
                         height={553}
                     />
@@ -142,8 +141,7 @@ const Benefits = () => {
                                     }}
                                 >
                                     <h1 className="basis-3/5 font-montserrat text-3xl font-bold">
-                                        MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                                        <span className="text-primary-500">FIT</span>
+                                        KELAS RENANG TAMAN TIRTA KRISNA
                                     </h1>
                                 </motion.div>
                             </div>
@@ -161,18 +159,16 @@ const Benefits = () => {
                             }}
                         >
                             <p className="my-5">
-                                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                                Felis orci diam odio.
+                            Ayo, mari kita bergabung di kelas renang "Taman Tirta Krisna"! Di sini, 
+                            kamu akan menemukan petualangan air yang tak terlupakan dan kesempatan untuk menguasai keterampilan berenang. 
+                            Kelas renang kami didukung oleh instruktur berpengalaman yang akan membantu kamu meningkatkan keahlianmu dalam berenang. 
+                            Apakah kamu ingin belajar gaya bebas yang elegan, menguasai teknik dasar renang, 
+                            atau bahkan melatih untuk menjadi atlet renang yang tangguh, semua itu bisa kamu dapatkan di sini. Selain itu, 
+                            Taman Tirta Krisna menawarkan fasilitas renang yang lengkap dan aman, dengan kolam yang terawat dengan baik. 
                             </p>
                             <p className="mb-5">
-                                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                            Jadi, jangan lewatkan kesempatan ini! Bergabunglah sekarang dan rasakan kegembiraan dan kepuasan dalam menjelajahi dunia renang. 
+                            Segera daftarkan dirimu di kelas renang "Taman Tirta Krisna" dan bersiaplah untuk memulai petualangan air yang luar biasa!
                             </p>
                         </motion.div>
 
@@ -183,7 +179,7 @@ const Benefits = () => {
                                     className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
                                     href={`contactus`}
                                 >
-                                    Join Now
+                                    Bergabung Sekarang
                                 </AnchorLink>
                             </div>
                         </div>

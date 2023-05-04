@@ -6,9 +6,7 @@ import { SelectedPage } from '@/shared/types';
 
 export default function App({ Component, pageProps }: AppProps) {
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
-  const [selectedPage, setSelectedPage] = useState<SelectedPage>(
-    SelectedPage.Home
-  );
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <div className="app bg-gray-20">
+      <div className="app bg-slate-100">
         <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         <Component {...pageProps} />
       </div>

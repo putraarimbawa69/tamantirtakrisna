@@ -17,8 +17,8 @@ const Link = (props: Props) => {
 
     return (
         <AnchorLink
-            className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}
-          transition duration-500 hover:text-primary-300
+            className={`${selectedPage === lowerCasePage ? "text-blue-500" : ""}
+          transition duration-500 hover:text-blue-300
         `}
             href={`#${lowerCasePage}`}
             onClick={() => setSelectedPage(lowerCasePage)}
@@ -39,7 +39,7 @@ const Navbar = (props: NavBarProps) => {
     const flexBetween = "flex items-center justify-between";
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
     const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-    const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
+    const navbarBackground = isTopOfPage ? "" : "bg-sky-500 drop-shadow";
 
     return (
         <nav>
@@ -48,12 +48,12 @@ const Navbar = (props: NavBarProps) => {
                     <div className={`${flexBetween} w-full gap-16`}>
                         {/* LEFT SIDE */}
                         {/* LOGO */}
-                        <Image alt="logo" src={'/assets/Logo.png'} width={113} height={24} />
+                        <Image alt="logo" src={'/assets/Logottk.png'} width={113} height={24} />
 
                         {/* RIGHT SIDE */}
                         {isAboveMediumScreens ? (
                             <div className={`${flexBetween} w-full`}>
-                                <div className={`${flexBetween} gap-8 text-sm`}>
+                                <div className={`${flexBetween} gap-8 text-xl`}>
                                     <Link
                                         page='Home'
                                         selectedPage={selectedPage}
@@ -67,7 +67,7 @@ const Navbar = (props: NavBarProps) => {
                                 </div>
                                 <div className={`${flexBetween} gap-8`}>
                                     <AnchorLink
-                                        className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white"
+                                        className="rounded-md bg-orange-300 px-10 py-2 hover:bg-blue-500 hover:text-white"
                                         href={`contactus`}
                                     >
                                         Join Now
@@ -76,7 +76,7 @@ const Navbar = (props: NavBarProps) => {
                             </div>
                         ) : (
                             <button
-                                className="rounded-full bg-secondary-500 p-2"
+                                className="rounded-full bg-orange-300 p-2"
                                 onClick={() => setIsMenuToggled(!isMenuToggled)}
                             >
                                 <Bars3Icon className="h-6 w-6 text-white" />
@@ -87,7 +87,7 @@ const Navbar = (props: NavBarProps) => {
             </div>
             {/* MOBILE MENU MODAL */}
             {!isAboveMediumScreens && isMenuToggled && (
-                <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
+                <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-blue-100 drop-shadow-xl">
                     {/* CLOSE ICON */}
                     <div className="flex justify-end p-12">
                         <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
