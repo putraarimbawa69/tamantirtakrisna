@@ -141,7 +141,7 @@ const Benefits = () => {
                                     }}
                                 >
                                     <h1 className="basis-3/5 font-montserrat text-3xl font-bold">
-                                        KELAS RENANG TAMAN TIRTA KRISNA
+                                        KELAS RENANG TAMAN TIRTA KRISNA 
                                     </h1>
                                 </motion.div>
                             </div>
