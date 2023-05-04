@@ -159,7 +159,7 @@ const Benefits = () => {
                             }}
                         >
                             <p className="my-5">
-                            Ayo, mari kita bergabung di kelas renang "Taman Tirta Krisna"! Di sini, 
+                            Ayo, mari kita bergabung di kelas renang Taman Tirta Krisna! Di sini, 
                             kamu akan menemukan petualangan air yang tak terlupakan dan kesempatan untuk menguasai keterampilan berenang. 
                             Kelas renang kami didukung oleh instruktur berpengalaman yang akan membantu kamu meningkatkan keahlianmu dalam berenang. 
                             Apakah kamu ingin belajar gaya bebas yang elegan, menguasai teknik dasar renang, 
@@ -168,7 +168,7 @@ const Benefits = () => {
                             </p>
                             <p className="mb-5">
                             Jadi, jangan lewatkan kesempatan ini! Bergabunglah sekarang dan rasakan kegembiraan dan kepuasan dalam menjelajahi dunia renang. 
-                            Segera daftarkan dirimu di kelas renang "Taman Tirta Krisna" dan bersiaplah untuk memulai petualangan air yang luar biasa!
+                            Segera daftarkan dirimu di kelas renang Taman Tirta Krisna dan bersiaplah untuk memulai petualangan air yang luar biasa!
                             </p>
                         </motion.div>
 
